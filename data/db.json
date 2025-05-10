@@ -1,0 +1,1379 @@
+[
+  {
+    "sup_name": "Hotel Mirador Andino",
+    "description": "Hotel cuatro estrellas ubicado en el corazón de Medellin, con servicios integrales para eventos y alojamiento.",
+    "services": ["hotel", "alimentos"],
+    "services_description": {
+      "hotel": "Salones para eventos empresariales, bodas y conferencias, además de alojamiento en cómodas habitaciones.",
+      "alimentos": "Restaurante gourmet con una carta variada, ideal para eventos y almuerzos ejecutivos."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "salon antioquia",
+          "description": "Espacio con capacidad para 200 personas, equipado con proyector, tarima y sonido.",
+          "price": 450000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "salon medellin",
+          "description": "Salon intimo para reuniones pequeñas (hasta 50 personas).",
+          "price": 180000.0,
+          "quality": 4.3
+        },
+        {
+          "name": "habitacion individual",
+          "description": "Habitacion con cama sencilla, escritorio, baño privado y TV.",
+          "price": 180000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Habitacion con cama doble o dos camas sencillas, baño privado y aire acondicionado.",
+          "price": 250000.0,
+          "quality": 4.6
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "bandeja paisa",
+          "description": "Plato tipico con frijoles, carne molida, chicharron, huevo, arroz y aguacate.",
+          "price": 25000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "cazuela de mariscos",
+          "description": "Mezcla de mariscos en crema con arroz con coco.",
+          "price": 32000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "ensalada cesar con pollo",
+          "description": "Lechuga romana con pollo, aderezo cesar, crotones y parmesano.",
+          "price": 18000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "sancocho antioqueno",
+          "description": "Sopa tradicional con carne, platano, yuca y papa.",
+          "price": 20000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "pasta alfredo con pollo",
+          "description": "Fettuccine en salsa alfredo con pollo.",
+          "price": 22000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "pizza artesanal",
+          "description": "Pizza con masa delgada e ingredientes frescos.",
+          "price": 24000.0,
+          "quality": 4.2
+        },
+        {
+          "name": "posta cartagenera",
+          "description": "Carne de res en salsa dulce con arroz blanco.",
+          "price": 28000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "arepa rellena",
+          "description": "Arepa de maiz con carne desmechada, queso y guacamole.",
+          "price": 12000.0,
+          "quality": 4.3
+        },
+        {
+          "name": "filete de salmon",
+          "description": "Salmon a la plancha con pure de papa y vegetales.",
+          "price": 35000.0,
+          "quality": 4.9
+        },
+        {
+          "name": "postre tres leches",
+          "description": "Pastel suave con mezcla de tres tipos de leche.",
+          "price": 10000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellin",
+      "address": "Carrera 45 #10-30, El Poblado"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "AudioMax Eventos",
+    "description": "Empresa especializada en soluciones de sonido profesional para eventos empresariales, conciertos y bodas.",
+    "services": ["sonido"],
+    "services_description": {
+      "sonido": "Equipos de sonido profesional, microfonía, mezcladores y personal técnico capacitado para todo tipo de eventos."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "paquete basico",
+          "description": "2 bafles, consola pequeña y 2 microfonos inalambricos. Ideal para reuniones pequeñas.",
+          "price": 350000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "paquete estandar",
+          "description": "4 bafles, consola mediana, 4 microfonos y soporte tecnico durante el evento.",
+          "price": 600000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "paquete premium",
+          "description": "8 bafles, consola profesional, 6 microfonos, luces ambientales y DJ si se requiere.",
+          "price": 950000.0,
+          "quality": 4.9
+        },
+        {
+          "name": "alquiler microfonos individuales",
+          "description": "Microfonos inalambricos o de diadema, con pilas incluidas.",
+          "price": 80000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Calle 5 #38-20, San Fernando"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "TransMovil Express",
+    "description": "Empresa dedicada al transporte empresarial y de eventos con cobertura nacional. Flota moderna y conductores certificados.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Servicio de transporte para grupos pequeños y grandes, ideal para traslados a eventos, convenciones y visitas empresariales."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "van ejecutiva",
+          "description": "Vehiculo con capacidad para 8 pasajeros, aire acondicionado, wifi y conductor uniformado.",
+          "price": 300000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "buseta corporativa",
+          "description": "Transporte para hasta 25 personas, ideal para traslados grupales. Incluye seguro de viaje.",
+          "price": 550000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "bus de lujo",
+          "description": "Bus para 40 pasajeros con sillas reclinables, pantalla, refrigerios y sonido interno.",
+          "price": 850000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "vehiculo vip",
+          "description": "Automovil sedan para transporte individual o de parejas. Conductor privado y servicio personalizado.",
+          "price": 220000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogota",
+      "address": "Avenida El Dorado #69-40, Teusaquillo"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Sabores y Rutas",
+    "description": "Restaurante campestre con servicios de catering para eventos y transporte privado desde la ciudad hasta nuestras instalaciones.",
+    "services": ["alimentos", "transporte"],
+    "services_description": {
+      "alimentos": "Catering y carta gourmet con sabores típicos y cocina fusión para eventos sociales y corporativos.",
+      "transporte": "Traslado en vans ejecutivas desde el centro de la ciudad hasta el restaurante, ida y regreso."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "cazuela de frijoles",
+          "description": "Cazuela con chorizo, carne molida, arroz y plátano maduro.",
+          "price": 20000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "arroz con camarones",
+          "description": "Arroz salteado con camarones, vegetales y especias del Pacífico.",
+          "price": 28000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "mojarra frita",
+          "description": "Mojarra acompañada de patacón y ensalada fresca.",
+          "price": 30000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "chuleta valluna",
+          "description": "Carne empanizada, arroz blanco, tajadas de plátano y ensalada.",
+          "price": 22000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "lomo en salsa de champiñones",
+          "description": "Filete de res bañado en salsa cremosa, acompañado de papas y vegetales.",
+          "price": 34000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "ensalada tropical",
+          "description": "Mezcla de frutas, vegetales y vinagreta de maracuyá.",
+          "price": 15000.0,
+          "quality": 4.3
+        },
+        {
+          "name": "empanadas de carne",
+          "description": "6 empanadas artesanales con ají casero.",
+          "price": 12000.0,
+          "quality": 4.2
+        },
+        {
+          "name": "postre de natas",
+          "description": "Postre tradicional de leche, suave y cremoso.",
+          "price": 10000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "jugo natural",
+          "description": "Jugo de fruta natural a elección (guayaba, lulo, maracuyá).",
+          "price": 6000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "café campesino",
+          "description": "Taza de café filtrado de origen local.",
+          "price": 4000.0,
+          "quality": 4.7
+        }
+      ],
+      "transporte": [
+        {
+          "name": "traslado ida y vuelta en van",
+          "description": "Van ejecutiva para 10 personas desde Popayan centro hasta el restaurante.",
+          "price": 180000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "traslado grupal en microbus",
+          "description": "Transporte para 20-25 personas con seguro de viaje y aire acondicionado.",
+          "price": 300000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayan",
+      "address": "Vereda El Cofre, km 7 vía a Timbío"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "El Sabor de Mamá",
+    "description": "Restaurante tradicional especializado en comida casera y catering para eventos familiares y empresariales.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Ofrecemos una carta variada con platos típicos colombianos y opciones vegetarianas, disponible para consumo en el lugar o servicio a eventos."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "ajiaco santafereño",
+          "description": "Sopa típica con pollo, papa criolla, guasca y mazorca.",
+          "price": 22000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "bandeja paisa",
+          "description": "Arroz, frijoles, carne molida, chicharrón, plátano, huevo y arepa.",
+          "price": 28000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "ensalada vegetariana",
+          "description": "Mezcla de vegetales, aguacate y aderezo de limón.",
+          "price": 15000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "jugo natural",
+          "description": "Lulo, maracuyá, mango, guanábana o mora.",
+          "price": 5000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "postre de tres leches",
+          "description": "Torta suave con mezcla de tres tipos de leche.",
+          "price": 9000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogota",
+      "address": "Carrera 12 #45-33, Chapinero"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Hotel Boutique La Casona",
+    "description": "Hotel colonial con servicios de hospedaje, alimentación y salones para eventos empresariales.",
+    "services": ["hotel", "alimentos"],
+    "services_description": {
+      "hotel": "Ofrecemos habitaciones cómodas para estadías individuales o en pareja, así como salones para reuniones.",
+      "alimentos": "Carta gourmet con platos nacionales e internacionales."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Cama sencilla, baño privado, TV y wifi.",
+          "price": 120000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Cama doble, escritorio, aire acondicionado y desayuno incluido.",
+          "price": 180000.0,
+          "quality": 4.6
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "pasta al pesto",
+          "description": "Pasta artesanal con salsa de albahaca y nueces.",
+          "price": 26000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "pollo a la naranja",
+          "description": "Pechuga a la plancha con salsa de naranja y arroz especiado.",
+          "price": 24000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellin",
+      "address": "Calle 10 #35-15, El Poblado"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Rutas del Valle",
+    "description": "Empresa especializada en transporte empresarial y turístico dentro del Valle del Cauca.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Disponemos de vehículos modernos con conductores capacitados para traslados seguros y cómodos."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "microbus ejecutivo",
+          "description": "Capacidad para 20 personas, aire acondicionado y seguro.",
+          "price": 320000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "carro ejecutivo",
+          "description": "Vehículo para hasta 4 pasajeros, ideal para traslados ejecutivos.",
+          "price": 180000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Carrera 1 #23-44, Santa Mónica"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Eventos Royal",
+    "description": "Hotel y centro de eventos con soporte técnico de sonido incluido en sus paquetes de alquiler.",
+    "services": ["hotel", "sonido"],
+    "services_description": {
+      "hotel": "Salones para eventos con opción de hospedaje para asistentes.",
+      "sonido": "Montaje y operación de sonido para conferencias y celebraciones."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Cama sencilla, TV, wifi y desayuno continental.",
+          "price": 100000.0,
+          "quality": 4.3
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Cama doble, minibar, aire acondicionado y wifi.",
+          "price": 160000.0,
+          "quality": 4.5
+        }
+      ],
+      "sonido": [
+        {
+          "name": "sonido basico",
+          "description": "2 parlantes, 1 micrófono y consola básica.",
+          "price": 300000.0,
+          "quality": 4.2
+        },
+        {
+          "name": "sonido conferencia",
+          "description": "Sistema de sonido para conferencias con 4 micrófonos y técnico.",
+          "price": 550000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogota",
+      "address": "Avenida Caracas #59-25"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "LogiSound Pro",
+    "description": "Aliado logístico para eventos que ofrece transporte de invitados y montaje de sonido profesional.",
+    "services": ["sonido", "transporte"],
+    "services_description": {
+      "sonido": "Equipos de sonido de alta fidelidad con técnicos certificados.",
+      "transporte": "Vehículos para traslado de invitados y personal técnico."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "montaje concierto",
+          "description": "Sistema de sonido profesional para eventos al aire libre.",
+          "price": 1000000.0,
+          "quality": 4.9
+        }
+      ],
+      "transporte": [
+        {
+          "name": "transporte invitados",
+          "description": "Van para 12 personas con rutas personalizadas.",
+          "price": 250000.0,
+          "quality": 4.5
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellin",
+      "address": "Calle 48 #22-11, Laureles"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Comida de Abuela",
+    "description": "Restaurante de comida típica caucana, ideal para eventos pequeños o familiares. Platos preparados con recetas tradicionales.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Catering para eventos o consumo en el restaurante, con platos típicos de la región y opciones vegetarianas."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "empanadas de pavo",
+          "description": "Empanadas caseras rellenas de pavo, papas y especias locales.",
+          "price": 8000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "sancocho de gallina",
+          "description": "Caldo con carne de gallina, yuca, plátano y arroz.",
+          "price": 18000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "arepas con queso",
+          "description": "Arepas tradicionales con queso fresco.",
+          "price": 6000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "pescado frito",
+          "description": "Pescado fresco de la región frito, acompañado de arroz con coco.",
+          "price": 22000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "postre de guanabana",
+          "description": "Postre cremoso de guanabana con toques de leche condensada.",
+          "price": 10000.0,
+          "quality": 4.9
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayan",
+      "address": "Carrera 6 #17-32, Centro Histórico"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Hotel El Paraíso",
+    "description": "Hotel ubicado en el corazón de Popayán, con restaurante de alta cocina para todo tipo de eventos y habitaciones confortables.",
+    "services": ["hotel", "alimentos"],
+    "services_description": {
+      "hotel": "Habitaciones dobles e individuales con servicio de desayuno y opciones para eventos.",
+      "alimentos": "Catering de alta calidad para eventos, con menús típicos e internacionales."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Cama sencilla, wifi gratis, baño privado y TV.",
+          "price": 120000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Cama doble, aire acondicionado, minibar y desayuno incluido.",
+          "price": 180000.0,
+          "quality": 4.6
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "bandeja de mariscos",
+          "description": "Plato con camarones, calamares y pescado fresco.",
+          "price": 35000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "empanadas de pipián",
+          "description": "Empanadas rellenas de pipián y carne de cerdo.",
+          "price": 10000.0,
+          "quality": 4.5
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayan",
+      "address": "Calle del Comercio #10-20, Centro"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Viajes Popayán",
+    "description": "Empresa de transporte con rutas directas desde Popayán hacia diferentes destinos turísticos y corporativos en la región.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Ofrecemos servicio de transporte de lujo con vehículos cómodos y conductores capacitados."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "van ejecutiva",
+          "description": "Van con capacidad para 8 personas, ideal para viajes pequeños y familiares.",
+          "price": 200000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "buseta",
+          "description": "Buseta con capacidad para 20 personas, aire acondicionado y equipo de sonido.",
+          "price": 400000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayan",
+      "address": "Carrera 7 #21-45, Barrio San José"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Eventos y Sonido Popayán",
+    "description": "Ofrecemos servicios de sonido profesional y catering para todo tipo de eventos, bodas, fiestas y reuniones empresariales.",
+    "services": ["sonido", "alimentos"],
+    "services_description": {
+      "sonido": "Montaje de sonido para eventos, con equipos profesionales y técnicos especializados.",
+      "alimentos": "Catering gourmet con opciones para eventos pequeños y grandes."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "sistema básico",
+          "description": "Sonido para eventos pequeños, con 2 parlantes y micrófono inalámbrico.",
+          "price": 250000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "sonido para conferencia",
+          "description": "Sistema profesional con micrófonos y mezcla de sonido para conferencias.",
+          "price": 500000.0,
+          "quality": 4.7
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "aperitivos variados",
+          "description": "Mini arepas, empanadas, y pasabocas para eventos.",
+          "price": 15000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "catering ejecutivo",
+          "description": "Platos gourmet individuales con opciones vegetarianas y veganas.",
+          "price": 25000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayan",
+      "address": "Calle 5 #12-10, Barrio La Esperanza"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Hotel y Transporte Santa Marta",
+    "description": "Hotel en Popayán con servicios de transporte al aeropuerto y a otros destinos dentro del Cauca.",
+    "services": ["hotel", "transporte"],
+    "services_description": {
+      "hotel": "Habitaciones cómodas con todos los servicios y transporte disponible para tours y traslados.",
+      "transporte": "Servicio de transporte de lujo para grupos, ideal para eventos y convenciones."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion simple",
+          "description": "Cama sencilla, baño privado, wifi gratuito y televisión por cable.",
+          "price": 90000.0,
+          "quality": 4.3
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Cama doble, minibar, aire acondicionado y desayuno.",
+          "price": 150000.0,
+          "quality": 4.5
+        }
+      ],
+      "transporte": [
+        {
+          "name": "transporte en bus",
+          "description": "Bus de 30 personas, con aire acondicionado y seguro de viaje.",
+          "price": 600000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayan",
+      "address": "Avenida Panamericana #30-50"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Delicias de Cali",
+    "description": "Restaurante de comida caleña con un ambiente acogedor y auténtico, ideal para eventos y celebraciones.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Catering con comida tradicional del Valle del Cauca y opciones saludables."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "sancocho valluno",
+          "description": "Plato típico de la región con carne de res, cerdo, yuca, plátano y arroz.",
+          "price": 22000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "empanadas de pipián",
+          "description": "Empanadas rellenas con pipián, una mezcla de papa, arroz y especias.",
+          "price": 8000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "tamal valluno",
+          "description": "Tamal hecho con carne de cerdo, arroz, vegetales, envuelto en hojas de plátano.",
+          "price": 15000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "jugos naturales",
+          "description": "Jugos frescos de frutas tropicales como guanábana, maracuyá y lulo.",
+          "price": 6000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "arroz atollado",
+          "description": "Arroz cremoso con pollo, cerdo, y verduras.",
+          "price": 18000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Avenida Roosevelt #45-56, Barrio El Peñón"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Hotel Cali Plaza",
+    "description": "Hotel de 4 estrellas en el centro de Cali con restaurante especializado en comida regional y habitaciones de lujo.",
+    "services": ["hotel", "alimentos"],
+    "services_description": {
+      "hotel": "Habitaciones con todas las comodidades, desayuno incluido y servicio de restaurante.",
+      "alimentos": "Platos gourmet con ingredientes locales y menús personalizados para eventos."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Cama sencilla, aire acondicionado, TV por cable y wifi gratis.",
+          "price": 110000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Cama doble, minibar, baño privado, y desayuno buffet.",
+          "price": 170000.0,
+          "quality": 4.6
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "bandeja paisa",
+          "description": "Plato grande con arroz, frijoles, carne asada, chicharrón, huevo y arepa.",
+          "price": 28000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "arepas con queso",
+          "description": "Arepas recién hechas acompañadas de queso fresco.",
+          "price": 8000.0,
+          "quality": 4.5
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Calle 6 #12-45, Centro Histórico"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Transporte Cali Tours",
+    "description": "Empresa de transporte de lujo para tours y traslados entre Cali y otros destinos turísticos de la región.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Servicio de transporte en vehículos de lujo para grupos y traslados privados."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "van ejecutiva",
+          "description": "Van con capacidad para 10 personas, aire acondicionado, wifi y asientos cómodos.",
+          "price": 300000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "buseta turística",
+          "description": "Buseta con capacidad para 25 personas, equipada con aire acondicionado y TV.",
+          "price": 550000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Carrera 8 #22-35, Barrio San Fernando"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Sonido & Sabor",
+    "description": "Proveedor de sonido profesional y catering especializado para eventos sociales y empresariales en Cali.",
+    "services": ["sonido", "alimentos"],
+    "services_description": {
+      "sonido": "Montaje de sonido para todo tipo de eventos, desde bodas hasta conferencias.",
+      "alimentos": "Catering con menús de comida típica y opciones internacionales."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "sonido básico",
+          "description": "Sistema de sonido para eventos pequeños, con 2 parlantes y micrófono inalámbrico.",
+          "price": 200000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "sonido para boda",
+          "description": "Sistema avanzado con micrófonos inalámbricos y mezclador profesional.",
+          "price": 400000.0,
+          "quality": 4.8
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "piqueo de carnes",
+          "description": "Variedad de carnes asadas acompañadas de ensaladas y papas.",
+          "price": 25000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "arepas rellenas",
+          "description": "Arepas con diferentes tipos de relleno como carne, pollo y vegetales.",
+          "price": 12000.0,
+          "quality": 4.5
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Avenida 3 Norte #45-78, Barrio El Castillo"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Hotel Turístico Cali",
+    "description": "Hotel en el sur de Cali con opciones de transporte exclusivo para sus huéspedes a destinos turísticos cercanos.",
+    "services": ["hotel", "transporte"],
+    "services_description": {
+      "hotel": "Habitaciones confortables y servicios para eventos, además de transporte para grupos.",
+      "transporte": "Transporte privado para traslados a la ciudad y otros destinos cercanos."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion simple",
+          "description": "Cama sencilla, baño privado, wifi gratuito, y desayuno incluido.",
+          "price": 95000.0,
+          "quality": 4.4
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Cama doble, aire acondicionado, minibar, y desayuno buffet.",
+          "price": 160000.0,
+          "quality": 4.6
+        }
+      ],
+      "transporte": [
+        {
+          "name": "transporte VIP",
+          "description": "Transporte de lujo para 12 personas, con aire acondicionado y chofer privado.",
+          "price": 700000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Avenida Paso del Comercio #25-90, Sur"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Sabores de Medellín",
+    "description": "Restaurante tradicional antioqueño, con platos típicos de la región y especialidad en arepas y bandejas paisas.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Catering con comida típica antioqueña, con opciones para todos los gustos."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "bandeja paisa",
+          "description": "Plato típico de Antioquía con arroz, frijoles, carne asada, chicharrón, huevo, arepa y aguacate.",
+          "price": 29000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "arepa de chocolo",
+          "description": "Arepa dulce rellena con queso, perfecta para acompañar cualquier comida.",
+          "price": 12000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "sopa de mondongo",
+          "description": "Sopa tradicional con carne de res, mondongo, papas y vegetales.",
+          "price": 23000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "empanadas de arroz",
+          "description": "Empanadas rellenas de arroz y carne molida, acompañadas de salsa de ají.",
+          "price": 8000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "jugos naturales",
+          "description": "Jugos frescos de frutas tropicales como guanábana, mango y lulo.",
+          "price": 7000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellín",
+      "address": "Carrera 65 #23-40, Barrio El Poblado"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Hotel El Castillo",
+    "description": "Hotel boutique con restaurante especializado en cocina mediterránea y habitaciones de lujo con vista panorámica.",
+    "services": ["hotel", "alimentos"],
+    "services_description": {
+      "hotel": "Habitaciones confortables y servicio completo, con vistas a la ciudad y piscina.",
+      "alimentos": "Menús gourmet con influencia mediterránea y opciones para eventos."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Habitación con cama sencilla, aire acondicionado, TV por cable y wifi.",
+          "price": 130000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Habitación con cama doble, minibar, baño privado y desayuno incluido.",
+          "price": 210000.0,
+          "quality": 4.8
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "paella de mariscos",
+          "description": "Plato de arroz con mariscos frescos y aliños tradicionales de la costa.",
+          "price": 35000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "ensalada caprese",
+          "description": "Tomate, albahaca y mozzarella con aceite de oliva extra virgen.",
+          "price": 15000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellín",
+      "address": "Calle 40 #70-33, Barrio Laureles"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Transporte Medellín Express",
+    "description": "Empresa de transporte de lujo para traslados privados, tours y eventos en Medellín y sus alrededores.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Servicio de transporte ejecutivo con vehículos de lujo, chofer privado y comodidades."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "limusina",
+          "description": "Limusina de lujo para traslados privados, con capacidad para 10 personas y comodidades exclusivas.",
+          "price": 800000.0,
+          "quality": 4.9
+        },
+        {
+          "name": "buseta de lujo",
+          "description": "Buseta con capacidad para 25 personas, aire acondicionado, televisión y asientos cómodos.",
+          "price": 600000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellín",
+      "address": "Calle 12 #45-60, Barrio El Tesoro"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Sonido y Sazón",
+    "description": "Proveedor de sonido profesional y catering para eventos en Medellín, con opciones para bodas, fiestas y conferencias.",
+    "services": ["sonido", "alimentos"],
+    "services_description": {
+      "sonido": "Montaje y alquiler de equipos de sonido para eventos de cualquier tamaño.",
+      "alimentos": "Catering con platos tradicionales y menús especiales para eventos."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "sonido básico",
+          "description": "Equipo de sonido para eventos pequeños, con micrófono y parlantes portátiles.",
+          "price": 250000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "sonido profesional",
+          "description": "Sistema de sonido avanzado con mezclador, micrófonos y equipos de última tecnología.",
+          "price": 500000.0,
+          "quality": 4.8
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "bandeja paisa",
+          "description": "Plato típico con arroz, frijoles, carne asada, chicharrón, huevo y aguacate.",
+          "price": 28000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "arepas rellenas",
+          "description": "Arepas con diferentes rellenos como carne, pollo o vegetales.",
+          "price": 12000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellín",
+      "address": "Avenida La 80 #25-70, Barrio Laureles"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Hotel El Retiro",
+    "description": "Hotel boutique en el centro de Medellín con opciones de transporte para turistas y eventos corporativos.",
+    "services": ["hotel", "transporte"],
+    "services_description": {
+      "hotel": "Habitaciones confortables y espacios para eventos, con excelente ubicación.",
+      "transporte": "Traslados privados a puntos turísticos y aeropuertos de Medellín."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Habitación con cama sencilla, baño privado, aire acondicionado, y wifi.",
+          "price": 120000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Habitación con cama doble, minibar, y desayuno incluido.",
+          "price": 190000.0,
+          "quality": 4.6
+        }
+      ],
+      "transporte": [
+        {
+          "name": "transporte privado",
+          "description": "Vehículo de lujo con chofer privado para traslados de 1 a 4 personas.",
+          "price": 350000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellín",
+      "address": "Calle 10 #30-45, Barrio El Poblado"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Sonido y Eventos",
+    "description": "Proveedor de sonido y luces para eventos sociales y corporativos en Cali.",
+    "services": ["sonido"],
+    "services_description": {
+      "sonido": "Alquiler de equipos de sonido y luces profesionales para todo tipo de eventos."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "sonido básico",
+          "description": "Sistema de sonido para eventos pequeños, con parlantes y micrófonos.",
+          "price": 150000.0,
+          "quality": 4.5
+        },
+        {
+          "name": "sonido avanzado",
+          "description": "Equipo de sonido de alta gama, ideal para eventos grandes con múltiples micrófonos y altavoces.",
+          "price": 400000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Avenida 3N #50-60, Barrio Santa Teresita"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "El Buen Gusto",
+    "description": "Restaurante especializado en comida internacional con un toque colombiano, ubicado en Cali.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Comida gourmet de fusión, con platos inspirados en diferentes culturas y el sazón colombiano."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "pasta carbonara",
+          "description": "Pasta al dente con salsa carbonara, panceta, queso parmesano y huevo.",
+          "price": 28000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "curry de pollo",
+          "description": "Pollo en salsa de curry con arroz basmati.",
+          "price": 35000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "arepas rellenas de carne",
+          "description": "Arepas hechas a mano, rellenas con carne desmechada, cebolla y queso.",
+          "price": 15000.0,
+          "quality": 4.6
+        },
+        {
+          "name": "tacos de pescado",
+          "description": "Tacos suaves con pescado fresco, aguacate, salsa de crema y cilantro.",
+          "price": 18000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Calle 5 #21-35, Barrio El Peñón"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Hotel Paraíso",
+    "description": "Hotel moderno con todas las comodidades para turistas y viajeros de negocios en Popayán.",
+    "services": ["hotel"],
+    "services_description": {
+      "hotel": "Habitaciones de lujo con un servicio excelente, restaurante y centro de convenciones."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Habitación con cama individual, baño privado, TV por cable y wifi gratuito.",
+          "price": 130000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Habitación con cama doble, minibar, desayuno incluido y aire acondicionado.",
+          "price": 220000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Popayán",
+      "address": "Carrera 7 #20-45, Barrio El Centro"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Transporte Bogotá Road",
+    "description": "Compañía de transporte con vehículos de lujo para viajes corporativos y turísticos en Bogotá.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Servicio de transporte privado con chofer y vehículos de lujo para grupos y ejecutivos."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "transporte ejecutivo",
+          "description": "Automóvil de lujo para 2 personas con chofer, aire acondicionado y servicio a bordo.",
+          "price": 400000.0,
+          "quality": 4.9
+        },
+        {
+          "name": "transporte grupal",
+          "description": "Van de lujo para grupos de hasta 12 personas, con chofer y comodidades premium.",
+          "price": 750000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogotá",
+      "address": "Calle 100 #20-30, Barrio Chico"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Restaurante Típico Caldas",
+    "description": "Restaurante de comida típica caldense con platos tradicionales de la región y un toque moderno.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Platos tradicionales de Caldas, como la trucha, el sancocho y las empanadas."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "trucha a la parrilla",
+          "description": "Trucha fresca de la región, acompañada de papas y ensalada.",
+          "price": 35000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "sancocho de gallina",
+          "description": "Sopa espesa con pollo, papas, yuca, plátano y mazorca.",
+          "price": 28000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "empanadas caldeñas",
+          "description": "Empanadas rellenas de carne, con salsa de ají casera.",
+          "price": 8000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Cali",
+      "address": "Carrera 6 #32-45, Barrio San Fernando"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Hotel El Ávila",
+    "description": "Hotel con vista a las montañas y un servicio de restaurante gourmet especializado en platos internacionales.",
+    "services": ["hotel", "alimentos"],
+    "services_description": {
+      "hotel": "Habitaciones de lujo con vista panorámica, baño privado y wifi gratuito.",
+      "alimentos": "Restaurante gourmet con menús internacionales y especialidades locales."
+    },
+    "services_details": {
+      "hotel": [
+        {
+          "name": "habitacion individual",
+          "description": "Habitación con cama sencilla, minibar y baño privado.",
+          "price": 180000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "habitacion doble",
+          "description": "Habitación doble con cama king size, balcón y jacuzzi.",
+          "price": 300000.0,
+          "quality": 4.9
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "filete mignon",
+          "description": "Filete de res con salsa de vino tinto y puré de papas.",
+          "price": 55000.0,
+          "quality": 4.8
+        },
+        {
+          "name": "paella mixta",
+          "description": "Arroz con mariscos, pollo y vegetales.",
+          "price": 48000.0,
+          "quality": 4.7
+        }
+      ]
+    },
+    "location": {
+      "city": "Medellín",
+      "address": "Calle 55 #10-12, Barrio El Tesoro"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Transporte de Lujo Bogotá",
+    "description": "Compañía de transporte de lujo para eventos, bodas y traslados privados en Bogotá.",
+    "services": ["transporte"],
+    "services_description": {
+      "transporte": "Vehículos de lujo para eventos especiales, traslados privados y turismo."
+    },
+    "services_details": {
+      "transporte": [
+        {
+          "name": "transporte ejecutivo",
+          "description": "Automóvil de lujo con chofer para traslados exclusivos.",
+          "price": 450000.0,
+          "quality": 4.9
+        },
+        {
+          "name": "transporte para eventos",
+          "description": "Transporte para eventos con vehículos grandes y cómodos para grupos de 15-20 personas.",
+          "price": 1000000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogotá",
+      "address": "Avenida 68 #30-45, Barrio Cedritos"
+    },
+    "sup_quality": 5
+  },
+  {
+    "sup_name": "Catering y Sonido Bogotá",
+    "description": "Proveedor de catering y equipos de sonido para todo tipo de eventos en Bogotá.",
+    "services": ["sonido", "alimentos"],
+    "services_description": {
+      "sonido": "Equipos de sonido para eventos sociales, bodas y conferencias.",
+      "alimentos": "Catering para eventos con menús personalizados según las preferencias del cliente."
+    },
+    "services_details": {
+      "sonido": [
+        {
+          "name": "sonido para boda",
+          "description": "Sistema de sonido adecuado para ceremonias y recepciones de bodas.",
+          "price": 350000.0,
+          "quality": 4.8
+        }
+      ],
+      "alimentos": [
+        {
+          "name": "canapés de camarón",
+          "description": "Pequeños bocados de camarón con salsa de mayonesa y limón.",
+          "price": 18000.0,
+          "quality": 4.6
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogotá",
+      "address": "Calle 42 #12-23, Barrio Chapinero"
+    },
+    "sup_quality": 4
+  },
+  {
+    "sup_name": "Café Bogotá",
+    "description": "Café con especialidad en bebidas calientes y postres en Bogotá.",
+    "services": ["alimentos"],
+    "services_description": {
+      "alimentos": "Café premium y postres artesanales."
+    },
+    "services_details": {
+      "alimentos": [
+        {
+          "name": "café expreso",
+          "description": "Café fuerte de grano 100% colombiano.",
+          "price": 5000.0,
+          "quality": 4.7
+        },
+        {
+          "name": "pastel de tres leches",
+          "description": "Delicioso pastel de tres leches con una capa suave de crema.",
+          "price": 15000.0,
+          "quality": 4.8
+        }
+      ]
+    },
+    "location": {
+      "city": "Bogotá",
+      "address": "Calle 60 #15-28, Barrio Usaquén"
+    },
+    "sup_quality": 4
+  }
+]

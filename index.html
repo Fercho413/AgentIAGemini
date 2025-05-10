@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Agente IA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        Chat para Cotizaciones y Recomendaciones
+    </header>
+
+    <div id="chat-container">
+        <div id="chat-box"></div>
+
+        <div id="input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí..." />
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const userInput = document.getElementById("user-input").value;
+            if (userInput.trim() === "") return;
+
+            // Mostrar mensaje del usuario
+            const userMessage = document.createElement("div");
+            userMessage.classList.add("message", "user-message");
+            userMessage.textContent = userInput;
+            document.getElementById("chat-box").appendChild(userMessage);
+
+            // Limpiar campo
+            document.getElementById("user-input").value = "";
+
+            try {
+                const response = await fetch("http://localhost:8000/chat", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ user_input: userInput })
+                });
+
+                const data = await response.json();
+
+                // Mostrar respuesta del bot con soporte para Markdown
+                const botMessage = document.createElement("div");
+                botMessage.classList.add("message", "bot-message");
+                botMessage.innerHTML = marked.parse(data.response);  // Conversión de Markdown a HTML
+                document.getElementById("chat-box").appendChild(botMessage);
+
+                // Scroll automático
+                document.getElementById("chat-box").scrollTop =
+                    document.getElementById("chat-box").scrollHeight;
+
+            } catch (error) {
+                const errorMsg = document.createElement("div");
+                errorMsg.classList.add("message", "bot-message");
+                errorMsg.textContent = "Hubo un error al conectarse con el servidor.";
+                document.getElementById("chat-box").appendChild(errorMsg);
+            }
+        }
+
+        // Permitir enviar con Enter
+        document.getElementById("user-input").addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
